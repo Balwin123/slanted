@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New slanted div</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            margin: 0;
+            font-family: impact;
+        }
+        .flex-container{
+            height: 420px;
+            background: repeating-linear-gradient(120deg, #E65239 0px, #E65239 450px,
+            hsl(283, 46%, 42%) 250px,
+            hsl(283, 46%, 42%)
+            );
+            border-left: #E65239;
+        }
+        #img-div{
+            height: 300px;
+            width: 300px;
+            border-radius: 50%;
+            border: 1px solid gray;
+            top: 10%;
+            margin-left: 200px;
+            background: #F5E7CB;
+            position: relative;
+            text-align: center;
+        }
+        #image{
+            border-radius: 50%;
+            position: absolute;
+            max-width: 300px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            display: block;
+            margin: auto;
+        }
+        #title{
+            font-size: 90px;
+            color: #fff;
+            font-family: impact;
+            font-weight: bold;
+            margin-left: 610px;
+            margin-top: -195px;
+            position: relative;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+        }
+        #info{
+            font-size: 15px;
+            font-weight: 100;
+            margin: auto;
+            margin-left: 619px;
+            margin-top: -40px;
+            text-transform: uppercase;
+            color: #fff;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="main">
+        <div class="flex-container">
+            <div id="img-div">
+                <img src="assets/pas.jpg" id="image" alt="">
+            </div>
+            <h1 id="title">Slanted DIV</h1>
+            <p id="info">The Amazing Slanted</p>
+        </div>
+    </section>
+
+
+    
+</body>
+</html>
